@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${outfit.className} bg-[#09090b] text-zinc-100 min-h-screen antialiased selection:bg-brand-500/30 selection:text-brand-100`}>
+      <body suppressHydrationWarning className={`${outfit.className} bg-[#09090b] text-zinc-100 min-h-screen antialiased selection:bg-brand-500/30 selection:text-brand-100`}>
         <NetworkLoader />
         {/* Abstract Ambient Gradients */}
         <div className="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
